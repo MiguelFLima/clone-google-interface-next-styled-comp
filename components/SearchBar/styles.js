@@ -74,13 +74,31 @@ export const Teclado =  styled(BsKeyboard)`
     color: gray;
     cursor: pointer;
 
-    @media(max-width: 760px) {
+    @media(max-width: 376px) {
         position: absolute;
         width: 15px;
         height: 15px;
         color: gray;
         top: 20px;
-        left: 270px;
+        left: 250px;
+    }
+
+    @media(min-width: 377px) {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        color: gray;
+        top: 20px;
+        left: 315px;
+    }
+
+    @media(min-width: 760px) {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        color: gray;
+        top: 15px;
+        left: 480px;
     }
 `;
 
@@ -93,12 +111,30 @@ export const Mic = styled(BiMicrophone)`
     cursor: pointer;
     color: gray;
 
-    @media(max-width: 760px) {
+    @media(max-width: 376px) {
         position: absolute;
         width: 16px;
         height: 16px;
         color: gray;
         top: 20px;
-        left: 300px;
+        left: 290px;
+    }
+
+    @media(min-width: 377px) {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        color: gray;
+        top: 20px;
+        left: 350px;
+    }
+
+    @media(min-width: 760px) {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        color: gray;
+        top: 15px;
+        left: 520px;
     }
 `;
