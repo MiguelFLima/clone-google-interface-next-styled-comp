@@ -74,13 +74,21 @@ export const Teclado =  styled(BsKeyboard)`
     color: gray;
     cursor: pointer;
 
-    @media(max-width: 376px) {
+    @media(min-width: 0px) {
         position: absolute;
         width: 15px;
         height: 15px;
         color: gray;
         top: 20px;
-        left: 250px;
+        left: 230px;
+    }
+    @media(min-width: 375px) {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        color: gray;
+        top: 20px;
+        left: 270px;
     }
 
     @media(min-width: 377px) {
@@ -111,13 +119,22 @@ export const Mic = styled(BiMicrophone)`
     cursor: pointer;
     color: gray;
 
-    @media(max-width: 376px) {
+    @media(min-width: 0px) {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        color: gray;
+        top: 20px;
+        left: 260px;
+    }
+
+    @media(min-width: 375px) {
         position: absolute;
         width: 16px;
         height: 16px;
         color: gray;
         top: 20px;
-        left: 290px;
+        left: 300px;
     }
 
     @media(min-width: 377px) {

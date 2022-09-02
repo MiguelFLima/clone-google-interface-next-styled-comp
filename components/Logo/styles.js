@@ -16,10 +16,15 @@ export const Container_Logo = styled.div`
 `;
 
 export const Logo = styled.img`
-    width: 272px;
     height: 92px;
 
-    @media(max-width: 760px) {
-        width: 160px;
+    @media(max-width: 376px) {
+        width: 190px;
+    }
+    @media(min-width: 424px) {
+        width: 220px;
+    }
+    @media(min-width: 760px) {
+        width: 272px;
     }
 `;
