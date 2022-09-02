@@ -7,6 +7,10 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     margin-inline: auto;
+
+    @media(max-width: 760px) {
+        width: 100vw;
+    }
 `;
 
 export const Buttons = styled.button`
@@ -22,5 +26,10 @@ export const Buttons = styled.button`
     cursor: pointer;
     :hover {
         border: 0.5px solid gray;
+    }
+
+    @media(max-width: 760px) {
+        font-size: 11px;
+        width: 100px;
     }
 `;

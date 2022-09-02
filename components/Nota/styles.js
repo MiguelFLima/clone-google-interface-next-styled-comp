@@ -1,12 +1,16 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    height: auto;
+    height: 10px;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     margin-top: -90px;
+
+    @media(max-width: 760px) {
+        width: 100vw;
+    }
 `;
 
 export const P = styled.p`
