@@ -1,1 +1,4 @@
-Simple Google interface clone with next/styled-comnponents
+# Simple Google interface clone
+
+* Next.js
+* Styled-Components
